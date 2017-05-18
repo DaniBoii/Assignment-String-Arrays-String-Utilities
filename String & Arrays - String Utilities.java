@@ -9,24 +9,24 @@ class stringarraysstringutilities
 // User picks what they want to do
     subAssignment();
   }
-
-
   
- public static void subAssignment()   
+  
+  
+  public static void subAssignment()   
   {
-   String countLetters = "Count Letters";
-   String countWord = "Count Word";
-   String capEveryWord = "Capitalize Every Word";
-   String revereStatement = "Reverse Statement";
-   String revereLetters = "Reverse Letters";
-   String reverseWord = "Reverse Word";
-   String alternateCase = "Alternate Case";
-   String letterFrequency = "Letter Frequency";
-   String consonantsVsVowels = "Consonants vs Vowels";
-   String lettersOnly = "Letters Only";
-   String search = "Search";
-   String searchAndReplace = "Search And Replace";
-  
+    String countLetters = "Count Letters";
+    String countWord = "Count Word";
+    String capEveryWord = "Capitalize Every Word";
+    String revereStatement = "Reverse Statement";
+    String revereLetters = "Reverse Letters";
+    String reverseWord = "Reverse Word";
+    String alternateCase = "Alternate Case";
+    String letterFrequency = "Letter Frequency";
+    String consonantsVsVowels = "Consonants vs Vowels";
+    String lettersOnly = "Letters Only";
+    String search = "Search";
+    String searchAndReplace = "Search And Replace";
+    
     String letterA = "";
     String letterB = "";
     String letterC = "";
@@ -39,7 +39,7 @@ class stringarraysstringutilities
     String letterJ = "";
     String letterK = "";
     String letterL = "";
-    String letterM = "";
+    
     letterA = "A";
     letterB = "B";
     letterC = "C";
@@ -52,23 +52,35 @@ class stringarraysstringutilities
     letterJ = "J";
     letterK = "K";
     letterL = "L";
-    letterM = "M";
     
-      countLetters = letterA  +" - " + countLetters;
-      countLetters = letterB  +" - " + countLetters;
-      countLetters = letterC  +" - " + countLetters;
-      countLetters = letterD  +" - " + countLetters;
-      countLetters = letterE  +" - " + countLetters;
-      countLetters = letterF  +" - " + countLetters;
-      countLetters = letterG  +" - " + countLetters;
-      countLetters = letterH  +" - " + countLetters;
-      countLetters = letterI  +" - " + countLetters;
-      countLetters = letterJ  +" - " + countLetters;
-      countLetters = letterK  +" - " + countLetters;
-      countLetters = letterL  +" - " + countLetters;
-      countLetters = letterM  +" - " + countLetters;
-      System.out.println(countLetters + "(This sub program will count the amount the letters you have entered)");
-      
-    }
-
+    
+    countLetters = letterA  +" - " + countLetters;
+    countWord = letterB  +" - " + countWord;
+    capEveryWord = letterC  +" - " + capEveryWord;
+    revereStatement = letterD  +" - " + revereStatement;
+    revereLetters = letterE  +" - " + revereLetters;
+    reverseWord = letterF  +" - " + reverseWord;
+    alternateCase = letterG  +" - " + alternateCase;
+    letterFrequency = letterH  +" - " + letterFrequency;
+    consonantsVsVowels = letterI  +" - " + consonantsVsVowels;
+    lettersOnly = letterJ  +" - " + lettersOnly;
+    search = letterK  +" - " + search;
+    searchAndReplace = letterL  +" - " + searchAndReplace;
+    System.out.println(countLetters + "(This sub program will count the amount the letters you have entered)");
+    System.out.println(countWord);
+    System.out.println(capEveryWord);
+    System.out.println(revereStatement);
+    System.out.println(revereLetters);
+    System.out.println(reverseWord);
+    System.out.println(alternateCase);
+    System.out.println(letterFrequency);
+    System.out.println(consonantsVsVowels);
+    System.out.println(lettersOnly);
+    System.out.println(search);
+    System.out.println(searchAndReplace);
+    
+    
+    
+  }
+  
 }
