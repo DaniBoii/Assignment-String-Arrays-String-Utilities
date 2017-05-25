@@ -1,0 +1,15 @@
+class ReverseLetters 
+{
+  public static void main (String[] args)
+  {
+    String statement;
+    System.out.println("Please enter a statement?");
+    statement = In.getString();
+       String result="";
+    for (int i=statement.length()-1; i>=0; i--) {
+        result = result + statement.charAt(i);
+    }
+    System.out.println(result);
+  }
+}
+
