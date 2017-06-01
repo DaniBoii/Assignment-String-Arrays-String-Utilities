@@ -1,0 +1,17 @@
+class Reverse
+{
+  public static void main (String[] args)
+  {
+    String sentence;
+    System.out.println("Enter any correct sentence? ");
+    sentence = In.getString();
+    
+    
+    String y[]=sentence.split(" ");
+    System.out.println(y[3]+" "+y[2]+" "+y[1]+" "+y[0]);
+    for(int i=y.length-1;i>=0;i--)
+    {
+      System.out.print(y[i]+ " ");
+    }
+  }
+}

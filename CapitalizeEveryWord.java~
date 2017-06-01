@@ -2,24 +2,23 @@ class CapitalizeEveryWord
 {
   public static void main (String[] args)
   {
-    String name, original;
-    System.out.println("Please enter your name?");
-    name = In.getString();
+    String statement;
+    System.out.println("Please enter your statement?");
+    statement = In.getString();
     
     String capitalize = null;
-    for(int i=0; i< (name.length());i++){
+    for(int i=0; i< (statement.length());i++){
       
-      if(name.charAt(i)==' '){
+      if(statement.charAt(i)==' '){
         
-        capitalize= capitalize.substring(0,i+1)+name.substring(i+1,i+2).toUpperCase()+name.substring(i+2);
+        capitalize= capitalize.substring(0,i+1)+statement.substring(i+1,i+2).toUpperCase()+statement.substring(i+2);
         
       }else if(i==0){
         
-        capitalize=name.substring(0,1).toUpperCase()+name.substring(1);
+        capitalize=statement.substring(0,1).toUpperCase()+statement.substring(1);
         
       }
     }
-    System.out.println("name: "+capitalize);
+    System.out.println("statement: "+capitalize);
   }
 }
-
